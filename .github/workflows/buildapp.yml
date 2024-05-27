@@ -6,7 +6,7 @@ name: Build and Release YTLitePlus
 on:
   workflow_dispatch:
     inputs:
-      decrypted_youtube_url:
+      decrypted_youtube_url:https://litter.catbox.moe/f5tnau.zip
         description: "The direct URL to the decrypted YouTube ipa"
         default: ""
         required: true
